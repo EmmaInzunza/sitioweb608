@@ -35,3 +35,45 @@
     border: solid;
     width: 500px;
 }
+.contenedor_end{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    background-color:beige;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+}
+.contenedor_spaceAround{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    justify-content: space-around;
+    background-color:beige;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+}
+.contenedor_stretch{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    justify-content: space-around;
+    background-color:beige;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+    height: 500px;
+}
+
+.contenedor_justificadoycentrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:beige;
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+    height: 500px;
+}
