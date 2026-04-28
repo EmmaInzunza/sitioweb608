@@ -79,3 +79,94 @@ nav {
     border-radius: 5px;
 
 }
+
+/* Estilos para la tarjeta */
+.titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(172, 37, 37);
+
+}
+.descripcion {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 17px;
+    color: #333;
+    padding: 0 15px;
+    font-style: normal;
+    flex-grow: 1;   
+
+}
+.imagen {
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img {
+    width: 200px;
+    border-radius: 12px;
+    justify-items: center;
+}
+.boton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+
+}
+.boton:hover {
+    background-color: antiquewhite;
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+
+}
+.tarjta {
+    width: 300px;                 /* Todas iguales */
+    height: 420px;                /* Altura uniforme */
+    background-color: #fffcf9;       /* Fondo limpio */
+    border: 2px solid #d0c7c7;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.tarjeta {
+    box-shadow: 0 4px 8px 0 rgb(44,41,37);
+    overflow: hidden;
+    max-width: 300px;
+    height: 420px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    align-items: center;
+    color: #bab9b9;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.contenedor-tarjetas{
+    display: flex;
+    flex-wrap: wrap;              /* Permite que las tarjetas bajen si no caben en una fila */
+    justify-content: space-around;/* Espacio igual alrededor de cada tarjeta */
+    gap: 20px;                    /* Espacio adicional entre tarjetas */
+    margin: 30px auto;
+    max-width: 1200px;
+}
